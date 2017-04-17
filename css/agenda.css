@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section.agenda {
+	padding-left: 0;
+	padding-top: 50px;
+}
+
+section.agenda h1 {
+	margin-left: 245px;
+	margin-bottom: 25px;
+}
+
+section.agenda .textoAgenda
+{
+	margin-bottom: 40px;
+}
+
+section.agenda .menu {
+	margin-bottom: 30px;
+}
+
+section.agenda .menu .filtros {
+	float: right;
+	margin-right: 10px;
+	list-style: none outside none;
+}
+
+section.agenda .menu .filtros li {
+	float: left;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-left: 15px;
+}
+
+section.agenda .menu .filtros li input {
+	vertical-align: top;
+}
+
+section#agenda_regular table {
+	margin-bottom: 45px;
+}
+
+section.agenda table th {
+	background-color: #93278f;
+	color: #f2f1e7;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 600;
+	border-right: 2px solid white;
+	padding-left: 10px;
+	padding-top: 3px;
+	line-height: 29px;
+	width: 12%;
+	border-bottom: 1px solid #93278f;
+}
+
+section#agenda_regular table th.null {
+	background: none;
+	width: 1%;
+	padding-left: 55px;
+}
+
+section#agenda_regular table td {
+	background-color: #f2f1e7;
+	border-bottom: 1px solid #93278f;
+	border-right: 2px solid white;
+	padding: 8px;
+}
+
+section#agenda_regular table td a {
+	font-weight: 600;
+	display: block;
+}
+
+section#agenda_regular table td.hora {
+	background-color: white;
+	border-right: 0;
+	color: #6d6e71;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 4px 0 0 0;
+}
+
+section.agenda .otra_agenda {
+	background: url("../images/flechas/blanca_de.png") no-repeat scroll 90% center #93268F;
+	border: 1px solid #93268F;
+	color: #FFFEFF;
+	display: block;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 30px;
+	padding: 0 15px;
+	text-transform: uppercase;
+	width: 173px;
+	float: left;
+}
+
+section.agenda .share
+{
+	background-color: #EFEFEF;
+	border-bottom: 1px solid #D4D5D6;
+	border-top: 1px solid #D4D5D6;
+	float: right;
+	padding: 10px 20px;
+}
+
+
+stickyHeader
+
+div.stickyHeader {
+		display: none !important;
+top:153px;
+  position:fixed;
+  _position:absolute;
+	}

@@ -1,0 +1,536 @@
+@import "elements.less";
+
+html, body { height: 100%; padding: 0; }
+
+
+@bgbody:#FFF;
+@bgsite:#FFF;
+@bordo:#73081C;
+@gris:#666666;
+@rojo:#D21616;
+@bgmenu:#EA8E1E;
+@menucolor:#C00A0A;
+@naranja:#ee9d0a;
+//@bgendpie:#76350B;
+@bgfooter:#BBB39F;
+@lineagris:#CBCBC9;
+@bgColumnas:#f5f4f1;
+@bgLiMenuLateralOver:#dadada;
+@link:#F05710;
+@linkHover:#FC3F15;
+
+html,body,input,div,button,nav,form,a,span,h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background-color: @bgbody;
+}
+
+a {
+	color: @link;
+}
+
+a:hover {
+	color: @linkHover;
+}
+
+.container{
+	//max-width: 1001px;
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 1199px) {
+	
+}
+
+nav.header-nav{	
+	background-color: #fff;
+	border-bottom: 4px solid @naranja;
+	color:black;
+	padding-top: 30px;
+
+	div.header-cont{
+		padding-top: 0px;
+	}
+
+	.hAztlan{
+		margin-bottom: 0px;
+		margin-top: 5px;
+	}
+
+	.hdirector{
+		margin: 0;
+	}
+}
+
+.escuela-de{
+	margin-bottom: 20px;
+}
+
+@media (min-width: 361px) {
+
+	
+	.main-text{
+		padding: 0px 40px;
+	}
+
+}
+
+
+
+
+@media (min-width: 992px) {
+
+	nav.header-nav{
+		padding-top: 0px;
+		height: 80px;	
+		background-image: url('../../images/bg-header-2.jpg');
+		
+		//background-size: cover;
+		background-repeat: repeat-x;
+
+		div.header-cont{
+			height: 76px;
+			background-image: url('../../images/piedra-2.png');
+			background-position: right top;
+			background-repeat: no-repeat;
+		}	
+	}
+
+.logo{	
+	//height: 100px;
+	padding-top: 5px;
+	div{
+		margin-left: 10px;
+		padding-top: 5px;
+		font-weight: bold;		
+		//margin-left: 120px;
+		h5{
+			font-weight: bold;
+			margin-bottom: 0px;
+			padding-top: 8px;
+			margin-top: 0px;
+		}
+		h4{
+			margin-top: 0px;
+		}
+	}
+	img{
+		width: 60px;
+		padding-top: 5px;
+		margin-right: 10px;
+	}
+
+	.hAztlan{
+		font-weight: 700;
+	}
+}
+.slogan{
+	p,h4{
+			margin:0px;
+			//font-family: 'Gentium Book Basic', serif;
+		}
+		h1{
+			margin-top: 0px;
+			margin-bottom: 5px;
+			font-weight: 700;
+			font-size: 2em;
+		}
+	//background-color: #666;
+	height: 80px;
+	text-align: center;
+
+	.hEscuela{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-weight: 700;
+	}
+	.hEnsenanza{
+		margin-top: 5px;
+		margin-bottom: 0px;		
+	}
+}
+
+div.main-text{
+	padding: 0 0px;
+}
+
+#form{
+	position: absolute;
+	right: 20px;
+	bottom: 50px;
+	padding: 10px;
+
+	.envianos{
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+
+	h1,h2,h3,h4,h5,legend,label{
+		font-family: 'PT Sans', sans-serif;
+	}
+
+	form{
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-color: rgba(238,157,10,0.8);
+		.rounded(10px);
+		padding: 10px;
+	}		
+	
+	
+	label{
+		color: white;
+		font-weight: 500;
+		font-size: 15px;
+	}
+
+	button{
+		color:white;
+		font-weight: 700;
+		font-size: 20px;
+		width: 100%;
+		position: absolute;
+		bottom: -10px;
+		left: 0;
+		background-color: #0176A1;
+		border-color: rgba(16, 48, 227, 1);
+	}
+}
+
+
+div.fecha{
+	position: absolute;
+	//left:20px;
+	//bottom: 315px;
+	top:120px;
+	color: #333333;
+	font-size: 20px;
+	font-weight: 600;
+	font-size: 30px;
+	color:white;
+	//text-shadow:5px 5px 2px black;
+	background-color: rgba(154, 45, 22, 1);
+	.border-radius(10px, 10px,  0, 0);
+	padding-left:20px;
+	padding-right:20px;
+	z-index:200;
+}
+
+div.promo{
+	background-color: rgba(255, 255, 255, 0.9);
+	//.rounded(10px);
+	.border-radius(10px, 10px,  0, 0);
+	position: absolute;
+	left:0px;
+	//bottom: 180px;
+	top:150px;
+	padding: 20px;
+	h1,h2,h3,h4,h5{
+		font-family: 'PT Sans', sans-serif;
+	}
+
+	.titulo{
+		text-transform: uppercase;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-weight: 600;
+		font-size: 50px;
+		text-align: left;
+	}
+
+	.intro{
+		color:#0176a1;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		text-align: left;
+		font-size: 30px;
+	}
+	.metodo{
+		color:#0176a1;
+		margin-top: 5px;
+		margin-bottom: 0px;
+		font-weight: 700;
+		text-align: left;
+		font-size: 23px;
+	}	
+}
+div.frase.big{
+	top:315px;
+}
+div.frase{
+	background-color: @naranja;
+	.rounded(10px);	
+	position: absolute;
+	left:20px;
+	//bottom: 155px;
+	top:295px;
+	padding: 0 20px;
+	h1,h2,h3,h4,h5{
+		font-family: 'PT Sans', sans-serif;
+		color:white;
+		font-weight: 500;
+		font-size: 25px;
+	}
+}
+
+#contents{
+		background-image: url('../../images/bg-2.jpg')!important;		
+		background-size:cover;		
+	}
+	
+#contents.cc{
+		background-image: url('../../images/cc.jpg')!important;				
+	}
+	
+#contents.cgj{
+	background-image: url('../../images/cgj.jpg')!important;				
+}
+
+#contents.bd{
+	background-image: url('../../images/bd.jpg')!important;				
+}
+
+
+//end query
+
+}
+
+
+body{
+	//background-image: url('../../images/main-bg.gif');	
+	//background-image: url('../../images/wavegrid.png');	
+	//background-repeat: repeat;
+	background-color: rgba(251, 248, 227, 1);
+}
+
+.entrar{
+	padding: 10px;
+	.border-radius(0,10px,10px,0);
+	background-color:@naranja;
+	width: 250px;
+	//margin-top: 15px;
+	margin:0 auto;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 10px;
+	a{
+		color: white;
+	}
+}
+
+.form-mobile{
+		padding: 50px;
+	}
+
+@media (min-width: 768px) {
+
+
+	body{
+		//background-image: none;	
+		background-repeat: repeat;
+	}
+
+	.entrar{
+		padding: 10px;
+		.border-radius(0,10px,10px,0);
+		background-color:@naranja;
+		width: 250px;
+		//margin-top: 15px;
+		margin-right: 30px;
+		text-align: center;
+		font-weight: 700;
+		float: right;
+		a{
+			color: white;
+		}
+	}
+
+
+	
+}
+
+#mobile-contents{
+	padding: 0px 20px;
+	text-align: center;
+	span{
+		display: block;
+	}
+
+	.titulo{
+		font-size: 30px;
+		font-weight: 900;
+	}
+	.subtitulo{
+		font-size: 25px;
+	}
+	.metodo{
+		margin-top: 10px;
+	}
+}
+
+#contents{
+	text-align: center;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+
+.main-text{
+	padding: 0px 10px;
+}
+
+.form-mobile{
+	padding: 20px 40px;
+	background-image: url('../../images/bg-form.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+
+	.btnSend{
+		text-align: left;
+		margin-left: 20px;
+	}
+}
+
+
+
+
+div.bonificacion{
+	padding: 10px;
+	.border-radius(10px,0,0,10px);
+	background-color:#F0CB8C;
+	//width: 250px;
+	margin-top: 15px;
+	text-align: center;
+	font-weight: 700;
+}
+.sub-titulos{
+	//color:white;
+	font-weight: 700;
+	font-size: 23px;
+	margin-top: 25px;
+
+}
+.informacion{
+	//background-image: url('../../images/bg-naranja.jpg');
+	//background-repeat: repeat-x;
+	//background-size: 80px 80px;
+}
+.texto{
+	margin-top: 10px;
+}
+.propuesta{
+	//margin-top: 20px;
+}
+
+.programa{
+
+	
+	padding:0px 20px;
+}
+
+.form-cont{
+	padding-left: 40px;
+	padding-top: 60px;
+}
+.envianos{
+	text-align: center;
+	color:white;
+	font-weight: 600;
+	//padding-top: 20px;
+	border:0px;
+	//margin-bottom: 50px;
+}
+
+
+.entrar-2{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 1.5em;
+	font-weight: 600;
+	//background-image: url('../../images/bg-enter.jpg');
+	//background-repeat: no-repeat;	
+	
+	a{
+		color:white;
+		padding: 5px 20px;
+		background-color: @naranja;
+		.rounded(5px);
+	}
+}
+.footer{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	.container{
+		padding-top: 5px;
+		font-size: 12px;
+		text-align: center;
+		border-top: 4px solid @naranja;
+	}
+	
+}
+
+.facebook-cont{
+	position: relative;
+
+	a.facebook{
+		position: absolute;
+		top: 60px;
+		right: 10px;
+	}
+}
+
+div.beneficios{
+	padding-top: 0px;
+	//background-image: url('../../images/beneficios-bg.png');
+	background-repeat: no-repeat;
+	ul{
+		//max-width: 450px;
+	}
+	h3{
+		//text-decoration: underline;
+	}
+	ul>li.list-group-item{
+		border:none;
+		background:transparent;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		font-weight: 600;
+	}
+}
+
+
+
+
+body.astro{
+	@azul : #0f24bb;
+	background-color: white;
+	.astro-horarios{
+		background-color: white;
+		padding-top: 20px;
+	}
+	
+	nav.header-nav {		
+		border-bottom: 4px solid @azul;
+	}
+
+	.entrar{
+		background-color: @azul;
+		a{
+			color:white;
+		}
+	}
+	.entrar-2 a{
+		background-color: @azul;
+		color:white;
+	}
+
+	.footer .container {		
+		border-top: 4px solid @azul;
+		}
+	a{
+		color:@azul;
+	}
+}
