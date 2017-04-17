@@ -37,7 +37,7 @@
 					<div style="float: left">
 						<img src="http://www.aztlan.org.ar/assets/images/footer/escuela_wp.png" class="img-responsive" alt="Image">
 					</div>
-					<div style="margin-left:45px; padding-top: 7px">+54 "9" 11 5837 9788</div>
+					<div style="margin-left:45px; padding-top: 7px">+54 9 11 5837 9788</div>
 					<br>
 					<div style="float: left">
 						<img src="http://www.aztlan.org.ar/assets/images/footer/escuela_tel.png" class="img-responsive" alt="Image">
